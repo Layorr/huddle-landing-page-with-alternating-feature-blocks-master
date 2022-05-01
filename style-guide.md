@@ -32,7 +32,7 @@ The designs were created to the following widths:
 
 ### Body, Call-to-actions
 
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Family: [Open Sans](18)
 - Weights: 400, 700
 
 ## Icons
