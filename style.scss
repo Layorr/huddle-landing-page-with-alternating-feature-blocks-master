@@ -121,6 +121,9 @@ body{
             background-color: #fff;
             color: $VeryDarkCyan;
             font-family: "open sans";
+            margin-bottom: 100px;
+
+            position: relative;
             
         
             .growing {
@@ -223,13 +226,21 @@ body{
             height: 230px;
             border-radius: 10px;
             color: $VeryDarkCyan;
-            display:flex;
+            display:inline-flex;
+            position: relative;
+            left:300px;
+            top: 70px;
+            z-index: 1;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             font-family: "open sans";
             box-shadow: 0 0 8px lightgray;
             border-color: white;
+            background-color: #fff;
+            
+            
+            
 
             .h2{
                 width:500px;
@@ -255,6 +266,91 @@ body{
                     // font-weight: 700;
                 }
             }
+        }
+
+        .bottom-container{
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            background-color: $VeryDarkCyan;
+            color: #fff;
+            font-size: 16px;
+
+            .logo-section{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                width: 350px;
+                margin: 150px 0 0 100px;
+                height: 300px;
+                
+                .bottom-logo{
+                    color: white;
+                    margin-bottom: 20px;
+                }
+
+                .location{
+                    display: flex;
+                    width: 340px;
+                    height: 50px;
+                    align-items: center;
+                    p{
+                        margin-left: 20px;
+                    }
+
+                }
+                .telephone{
+                    display: flex;
+                    width: 200px;
+                    height: 50px;
+                    align-items: center;
+                    margin-top: 15px;
+
+                    p{
+                        margin-left: 20px;
+                        
+                    }
+                    
+                }
+
+                .email{
+                    display: flex;
+                    width: 200px;
+                    height: 50px;
+                    align-items: center;
+                    
+                    p {
+                        margin-left: 20px;
+                    }
+
+                }
+            }
+
+            .career{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 90px;
+                margin-top: 50px;
+            }
+
+            .about-us{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 90px;
+                margin-top: 50px;
+                
+            }
+
+            .end-logo-section{
+                margin-right: 80px;
+            }
+
+           
         }
     }
 
