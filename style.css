@@ -10,7 +10,7 @@ body .top-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 600px 700px;
-      grid-template-columns: 600px 700px;
+  grid-template-columns: 600px 700px;
   height: 700px;
   background-color: #ebfbff;
 }
@@ -32,7 +32,7 @@ body .top-container .first-message img {
 
 body .top-container .first-message h1 {
   font-size: 2.5rem;
-  font-family: 'poppins';
+  font-family: "poppins";
   margin-top: 100px;
 }
 
@@ -69,7 +69,7 @@ body .top-container .right-side .top-right-button .button {
   height: 40px;
   border: none;
   -webkit-box-shadow: 0 2px 5px grey;
-          box-shadow: 0 2px 5px grey;
+  box-shadow: 0 2px 5px grey;
 }
 
 body .top-container .right-side .top-right-button .button a {
@@ -93,9 +93,9 @@ body .middle-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 250px 250px 250px;
-      grid-template-rows: 250px 250px 250px;
+  grid-template-rows: 250px 250px 250px;
   -ms-flex-line-pack: space-evenly;
-      align-content: space-evenly;
+  align-content: space-evenly;
   background-color: #fff;
   color: #00252e;
   font-family: "open sans";
@@ -107,14 +107,14 @@ body .middle-container .growing {
   width: 90%;
   height: 380px;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 5px lightgrey;
-          box-shadow: 0px 0px 5px lightgrey;
+  box-shadow: 0px 0px 5px lightgrey;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 body .middle-container .growing img {
@@ -128,22 +128,22 @@ body .middle-container .growing .growing-writing {
   width: 450px;
   margin: 0 0 0 100px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 body .middle-container .flowing {
   width: 90%;
   height: 380px;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 8px lightgray;
-          box-shadow: 0 0 8px lightgray;
+  box-shadow: 0 0 8px lightgray;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 body .middle-container .flowing .img-flowing {
@@ -152,33 +152,33 @@ body .middle-container .flowing .img-flowing {
   float: left;
   margin: 40px;
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
 }
 
 body .middle-container .flowing .flowing-writing {
   width: 450px;
   margin-left: 50px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 body .middle-container .users {
   width: 90%;
   height: 380px;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 8px lightgray;
-          box-shadow: 0 0 8px lightgray;
+  box-shadow: 0 0 8px lightgray;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 body .middle-container .users .img-users {
@@ -192,8 +192,8 @@ body .middle-container .users .users-writing {
   width: 450px;
   margin: 0 0 0 100px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 body .floating-section {
@@ -212,24 +212,24 @@ body .floating-section {
   z-index: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-family: "open sans";
   -webkit-box-shadow: 0 0 8px lightgray;
-          box-shadow: 0 0 8px lightgray;
+  box-shadow: 0 0 8px lightgray;
   border-color: white;
   background-color: #fff;
 }
 
 body .floating-section .h2 {
   width: 500px;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-weight: 600;
 }
 
@@ -241,7 +241,7 @@ body .floating-section .bottom-button {
   border: none;
   border-color: #fff;
   -webkit-box-shadow: 0 0 5px;
-          box-shadow: 0 0 5px;
+  box-shadow: 0 0 5px;
 }
 
 body .floating-section .bottom-button a {
@@ -257,13 +257,13 @@ body .bottom-container {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
   background-color: #00252e;
   color: #fff;
@@ -276,11 +276,11 @@ body .bottom-container .logo-section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   width: 350px;
   margin: 150px 0 0 100px;
   height: 300px;
@@ -298,8 +298,8 @@ body .bottom-container .logo-section .location {
   width: 340px;
   height: 50px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 body .bottom-container .logo-section .location p {
@@ -313,8 +313,8 @@ body .bottom-container .logo-section .telephone {
   width: 200px;
   height: 50px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 15px;
 }
 
@@ -329,8 +329,8 @@ body .bottom-container .logo-section .email {
   width: 200px;
   height: 50px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 body .bottom-container .logo-section .email p {
@@ -343,11 +343,11 @@ body .bottom-container .career {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 90px;
   margin-top: 50px;
 }
@@ -358,11 +358,11 @@ body .bottom-container .about-us {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 90px;
   margin-top: 50px;
 }

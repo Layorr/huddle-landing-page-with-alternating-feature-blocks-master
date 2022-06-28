@@ -3,354 +3,327 @@ $VeryPaleCyan: hsl(193, 100%, 96%);
 $VeryDarkCyan: hsl(192, 100%, 9%);
 $GrayishBlue: hsl(208, 11%, 55%);
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Red+Hat+Display:wght@500;700;900&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Red+Hat+Display:wght@500;700;900&family=Ubuntu&display=swap");
 
-body{
-        max-width: 1440px;
-        font-size: 18px;
-        
-        .top-container {
-            max-width: 1440px;
-            background-image: url(/images/bg-hero-desktop.svg);
-            display: grid;
-            grid-template-columns: 600px 700px;
-            height: 700px;
-            background-color: $VeryPaleCyan;
-        
-            .first-message {
-                margin: auto;
-                padding: 0 100px 0 50px;
-                width: 550px;
-                color: $VeryDarkCyan;
-                font-family: "open sans";
-                margin-left: 30px;
-        
-                img {
-                    position: absolute;
-                    top: 10%;
-                    height: 30px;
-                }
-        
-                h1 {
-                    font-size: 2.5rem;
-                    font-family: 'poppins';
-                    margin-top: 100px;
-        
-                }
-        
-                p {
-                    padding-bottom: 20px;
-                    line-height: 1.5rem;
-                    width: 520px;
-        
-                }
-        
-                button {
-                    background-color: $Pink;
-                    border-radius: 20px;
-                    height: 45px;
-                    width: 250px;
-                    border: none;
-        
-                    a {
-                        text-decoration: none;
-                        color: white;
-                        font-size: 13px;
-        
-                    }
-        
-                }
-        
-        
-            }
-        
-            .right-side {
-        
-        
-        
-                .top-right-button {
-                    position: absolute;
-                    right: 5%;
-                    margin-top: 50px;
-        
-                    .button {
-                        background-color: #fff;
-                        width: 170px;
-                        border-radius: 20px;
-                        height: 40px;
-                        border: none;
-                        box-shadow: 0 2px 5px grey;
-        
-                        a {
-                            text-decoration: none;
-                            font-size: 12px;
-                            color: $VeryDarkCyan;
-                            text-align: center;
-                            font-weight: 900;
-        
-                        }
-        
-                    }
-        
-                }
-        
-                img {
-                    width: 550px;
-                    margin: 165px 100px 0 100px;
-                    position: relative;
-                    float: right;
-                    height: 480px;
-                }
-        
-            }
-        
-        
-        
-        
-        
+body {
+  max-width: 1440px;
+  font-size: 18px;
+
+  .top-container {
+    max-width: 1440px;
+    background-image: url(/images/bg-hero-desktop.svg);
+    display: grid;
+    grid-template-columns: 600px 700px;
+    height: 700px;
+    background-color: $VeryPaleCyan;
+
+    .first-message {
+      margin: auto;
+      padding: 0 100px 0 50px;
+      width: 550px;
+      color: $VeryDarkCyan;
+      font-family: "open sans";
+      margin-left: 30px;
+
+      img {
+        position: absolute;
+        top: 10%;
+        height: 30px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-family: "poppins";
+        margin-top: 100px;
+      }
+
+      p {
+        padding-bottom: 20px;
+        line-height: 1.5rem;
+        width: 520px;
+      }
+
+      button {
+        background-color: $Pink;
+        border-radius: 20px;
+        height: 45px;
+        width: 250px;
+        border: none;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 13px;
         }
-        
-        .middle-container {
-            height: 1400px;
-            display: grid;
-            // background-color: ;
-            grid-template-rows: 250px 250px 250px;
-            // grid-row-gap: 200px;
-            
-            align-content: space-evenly;
-            background-color: #fff;
-            color: $VeryDarkCyan;
-            font-family: "open sans";
-            margin-bottom: 100px;
-
-            position: relative;
-            
-        
-            .growing {
-                width: 90%;
-                height: 380px;
-                justify-self: center;
-                // border: 5px solid;
-                border-radius: 10px;
-                box-shadow: 0px 0px 5px lightgrey;
-                
-                display: grid;
-                grid-template-columns: 50% 50%;
-                
-            
-                
-        
-                img {
-                    
-                    width: 300px;
-                    height: 300px;
-                    float: right;
-                    margin: 40px;
-                }
-        
-                .growing-writing {
-                    width: 450px;
-                    margin: 0 0 0 100px;
-                    align-self: center;
-        
-        
-                }
-            }
-        
-            .flowing {
-                width: 90%;
-                height: 380px;
-                justify-self: center;
-                // border: 5px solid;
-                border-radius: 10px;
-                box-shadow: 0 0 8px lightgray;
-                display: grid;
-                grid-template-columns: 50% 50%;
-        
-                .img-flowing {
-                    
-                    width: 300px;
-                    height: 300px;
-                    float: left;
-                    margin: 40px;
-                    order: 1;
-                }
-        
-        
-        
-                .flowing-writing {
-                    width: 450px;
-                    margin-left: 50px;
-                    
-                    align-self: center;
-                    
-                    order: 2;
-        
-        
-                }
-        
-            }
-        
-            .users {
-                width: 90%;
-                height: 380px;
-                justify-self: center;
-                // border: 5px solid;
-                border-radius: 10px;
-                box-shadow: 0 0 8px lightgray;
-                display: grid;
-                grid-template-columns: 50% 50%;
-        
-                .img-users {
-                    
-                    width: 300px;
-                    height: 300px;
-                    float: right;
-                    margin: 40px;
-                }
-        
-                .users-writing {
-                    width: 450px;
-                    margin: 0 0 0 100px;
-                    align-self: center;
-        
-        
-                }
-            }
-        }
-
-        .floating-section{
-            margin: auto;
-            text-align: center;
-            width: 650px;
-            height: 230px;
-            border-radius: 10px;
-            color: $VeryDarkCyan;
-            display:inline-flex;
-            position: relative;
-            left:300px;
-            top: 70px;
-            z-index: 1;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-family: "open sans";
-            box-shadow: 0 0 8px lightgray;
-            border-color: white;
-            background-color: #fff;
-            
-            
-            
-
-            .h2{
-                width:500px;
-                font-family: 'poppins' ;
-                font-weight: 600;
-            }
-
-            .bottom-button{
-                width: 340px;
-                height: 70px;
-                border-radius: 40px;
-                background-color: $Pink;
-                border:none;
-                border-color: #fff;
-                box-shadow: 0 0 5px;
-
-
-
-                a{
-                    text-decoration: none;
-                    color: white;
-                    font-size: 18px;
-                    // font-weight: 700;
-                }
-            }
-        }
-
-        .bottom-container{
-            height: 500px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            position: relative;
-            background-color: $VeryDarkCyan;
-            color: #fff;
-            font-size: 16px;
-
-            .logo-section{
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                width: 350px;
-                margin: 150px 0 0 100px;
-                height: 300px;
-                
-                .bottom-logo{
-                    color: white;
-                    margin-bottom: 20px;
-                }
-
-                .location{
-                    display: flex;
-                    width: 340px;
-                    height: 50px;
-                    align-items: center;
-                    p{
-                        margin-left: 20px;
-                    }
-
-                }
-                .telephone{
-                    display: flex;
-                    width: 200px;
-                    height: 50px;
-                    align-items: center;
-                    margin-top: 15px;
-
-                    p{
-                        margin-left: 20px;
-                        
-                    }
-                    
-                }
-
-                .email{
-                    display: flex;
-                    width: 200px;
-                    height: 50px;
-                    align-items: center;
-                    
-                    p {
-                        margin-left: 20px;
-                    }
-
-                }
-            }
-
-            .career{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                height: 90px;
-                margin-top: 50px;
-            }
-
-            .about-us{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                height: 90px;
-                margin-top: 50px;
-                
-            }
-
-            .end-logo-section{
-                margin-right: 80px;
-            }
-
-           
-        }
+      }
     }
 
+    .right-side {
+      .top-right-button {
+        position: absolute;
+        right: 5%;
+        margin-top: 50px;
+
+        .button {
+          background-color: #fff;
+          width: 170px;
+          border-radius: 20px;
+          height: 40px;
+          border: none;
+          box-shadow: 0 2px 5px grey;
+
+          a {
+            text-decoration: none;
+            font-size: 12px;
+            color: $VeryDarkCyan;
+            text-align: center;
+            font-weight: 900;
+          }
+        }
+      }
+
+      img {
+        width: 550px;
+        margin: 165px 100px 0 100px;
+        position: relative;
+        float: right;
+        height: 480px;
+      }
+    }
+  }
+
+  .middle-container {
+    height: 1400px;
+    display: grid;
+    // background-color: ;
+    grid-template-rows: 250px 250px 250px;
+    // grid-row-gap: 200px;
+
+    align-content: space-evenly;
+    background-color: #fff;
+    color: $VeryDarkCyan;
+    font-family: "open sans";
+    margin-bottom: 100px;
+
+    position: relative;
+
+    .growing {
+      width: 90%;
+      height: 380px;
+      justify-self: center;
+      // border: 5px solid;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px lightgrey;
+
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      img {
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin: 40px;
+      }
+
+      .growing-writing {
+        width: 450px;
+        margin: 0 0 0 100px;
+        align-self: center;
+      }
+    }
+
+    .flowing {
+      width: 90%;
+      height: 380px;
+      justify-self: center;
+      // border: 5px solid;
+      border-radius: 10px;
+      box-shadow: 0 0 8px lightgray;
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      .img-flowing {
+        width: 300px;
+        height: 300px;
+        float: left;
+        margin: 40px;
+        order: 1;
+      }
+
+      .flowing-writing {
+        width: 450px;
+        margin-left: 50px;
+
+        align-self: center;
+
+        order: 2;
+      }
+    }
+
+    .users {
+      width: 90%;
+      height: 380px;
+      justify-self: center;
+      // border: 5px solid;
+      border-radius: 10px;
+      box-shadow: 0 0 8px lightgray;
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      .img-users {
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin: 40px;
+      }
+
+      .users-writing {
+        width: 450px;
+        margin: 0 0 0 100px;
+        align-self: center;
+      }
+    }
+  }
+
+  .floating-section {
+    margin: auto;
+    text-align: center;
+    width: 650px;
+    height: 230px;
+    border-radius: 10px;
+    color: $VeryDarkCyan;
+    display: inline-flex;
+    position: relative;
+    left: 300px;
+    top: 70px;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "open sans";
+    box-shadow: 0 0 8px lightgray;
+    border-color: white;
+    background-color: #fff;
+
+    .h2 {
+      width: 500px;
+      font-family: "poppins";
+      font-weight: 600;
+    }
+
+    .bottom-button {
+      width: 340px;
+      height: 70px;
+      border-radius: 40px;
+      background-color: $Pink;
+      border: none;
+      border-color: #fff;
+      box-shadow: 0 0 5px;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        // font-weight: 700;
+      }
+    }
+  }
+
+  .bottom-container {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: $VeryDarkCyan;
+    color: #fff;
+    font-size: 16px;
+
+    .logo-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 350px;
+      margin: 150px 0 0 100px;
+      height: 300px;
+
+      .bottom-logo {
+        color: white;
+        margin-bottom: 20px;
+      }
+
+      .location {
+        display: flex;
+        width: 340px;
+        height: 50px;
+        align-items: center;
+        p {
+          margin-left: 20px;
+        }
+      }
+      .telephone {
+        display: flex;
+        width: 200px;
+        height: 50px;
+        align-items: center;
+        margin-top: 15px;
+
+        p {
+          margin-left: 20px;
+        }
+      }
+
+      .email {
+        display: flex;
+        width: 200px;
+        height: 50px;
+        align-items: center;
+
+        p {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .career {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 90px;
+      margin-top: 50px;
+    }
+
+    .about-us {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 90px;
+      margin-top: 50px;
+    }
+
+    .social-media {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+
+      .circle {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        height: 40px;
+        width: 40px;
+        text-decoration: none;
+      }
+    }
+
+    .end-logo-section {
+      margin-right: 50px;
+    }
+  }
+}
